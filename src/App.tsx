@@ -77,31 +77,176 @@ function App() {
             {[...Array(2)].map((_, index) => (
               <div key={`group-${index}`} className="flex">
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/AVnKwCSktDRff026ULzA6dX8Q.avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/vapi.png" alt="Vapi Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/0XeSdNZIgDsTk11W1Z3PEIiouI.avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/salesforce.png" alt="Salesforce Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/oTnvqelXJFdwFxF60W3MUeCe9E4.avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/monday.png" alt="Monday Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/Fv5SrErzWoWUtxTYIMKJ3wyPICI.avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/hubspot.png" alt="Hubspot Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/nNtdrOrSXU7nLwItMeGWGQYXINE.avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/gong.png" alt="Gong Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/0XeSdNZIgDsTk11W1Z3PEIiouI (1).avif" alt="Brand Logo" />
+                  <img src="/assets/brandsweworkwith/salesforce.png" alt="Salesforce Logo" />
                 </div>
                 <div className="slide">
                   <img src="/assets/brandsweworkwith/bolt.png" alt="Bolt Logo" />
                 </div>
                 <div className="slide">
-                  <img src="/assets/brandsweworkwith/n8n.webp" alt="n8n Logo" />
+                  <img src="/assets/brandsweworkwith/n8n.png" alt="n8n Logo" />
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why most lead gen agencies suck Section */}
+      <section className="py-24">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto text-center mb-16">
+            <h2 className="text-5xl md:text-6xl font-bold mb-8 text-glow">
+              Why most lead gen agencies suck
+            </h2>
+            
+            <p className="text-xl text-gray-300 leading-relaxed mb-8">
+              99% of agencies rely on broad targeting, targeting by "persona" or "spray and pray". But the 
+              problem is today:
+            </p>
+            
+            <p className="text-xl text-gray-300 leading-relaxed mb-8">
+              Buyers are overwhelmed with cold sales emails. Their inboxes are flooded with irrelevant 
+              junk.
+            </p>
+            
+            <p className="text-xl text-gray-300 leading-relaxed mb-8">
+              The idea is simple, yet most don't implement it: <span className="font-semibold text-white">target prospects based on the specific 
+              business pains you can solve, rather than just their job title and company.</span>
+            </p>
+          </div>
+          
+          {/* Comparison Section */}
+          <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            {/* Left Column - What 99% of SDRs/lead gen agencies do */}
+            <div className="bg-[#0A1535]/50 p-8 rounded-lg">
+              <h3 className="text-3xl font-bold mb-6 text-center">
+                What 99% of SDRs/lead gen agencies do
+              </h3>
+              
+              <p className="text-lg text-gray-300 mb-6 border-b border-gray-700 pb-6">
+                Let's target all CFOs at manufacturing companies with 1000+ employees.
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-red-500">✕</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Generic Outreach:</span> Messaging is too broad and fails to resonate with prospect's unique pain points.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-red-500">✕</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Missed Opportunities:</span> You might overlook potential clients who need your help but don't fit the usual criteria.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-red-500">✕</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Wasted Resources:</span> Time and effort are spent on leads that aren't interested, leading to you losing money and time.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-red-500">✕</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Advertising Cost Spiral:</span> When generic cold emails fail to convert, companies panic-pivot to paid ads, and spend way too much cash on pricey PPC campaigns and inflated CPAs - a budget-draining cycle that rarely solves the core prospecting problem.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-red-500">✕</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Opportunity Cost Creep:</span> While your team wastes billable hours chasing unqualified prospects, your competitors are closing deals.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Right Column - The "myoProcessWay" */}
+            <div className="bg-[#0A1535]/50 p-8 rounded-lg">
+              <h3 className="text-3xl font-bold mb-6 text-center">
+                The "myoProcessWay"
+              </h3>
+              
+              <p className="text-lg text-gray-300 mb-6 border-b border-gray-700 pb-6">
+                Let's target companies struggling with cash flow management or looking to automate their financial reporting processes.
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-green-500">✓</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Personalized Messaging:</span> We speak directly to the issues your prospects face, making them more relevant and timely.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-green-500">✓</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Better Conversion Rates:</span> Prospects are more likely to buy from you when they see you providing solutions to their problems (simple math).</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-green-500">✓</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">No time wasted on prospection:</span> We target leads that really need your services, making your outreach more effective.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-green-500">✓</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Build Trust:</span> Showing you understand their challenges and can solve their problem helps build trust and get them on retainers aka long-term relationships for your business.</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center mt-1 mr-4">
+                    <span className="text-green-500">✓</span>
+                  </div>
+                  <div>
+                    <p className="text-lg"><span className="font-semibold text-white">Faster Revenue Generation:</span> By targeting only the most relevant prospects, the myoProcess Method shortens the sales cycle, helping you close deals quicker and get cash flowing faster, accelerating revenue growth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
